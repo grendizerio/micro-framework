@@ -15,7 +15,9 @@
         }
     ],
     "require": {
-        "php": ">=5.4"
+        "php": ">=5.3",
+        "grendizer/http-message": "dev-master",
+        "grendizer/container": "dev-master"
     },
     "autoload": {
         "psr-4": {
