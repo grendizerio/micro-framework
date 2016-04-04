@@ -1,0 +1,29 @@
+{
+    "name": "grendizer/micro-framework",
+    "description": "Micro Framework By Grendizer",
+    "type": "framework",
+    "license": "MIT",
+    "homepage": "http://grendizerio.github.io/micro-framework/",
+    "support": {
+        "issues": "https://github.com/grendizerio/micro-framework/issues",
+        "source": "https://github.com/grendizerio/micro-framework.git"
+    },
+    "authors": [
+        {
+            "name": "Maofeng Zhang",
+            "email": "grendizer@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Grendizer\\MicroFramework\\": "src/"
+        },
+        "files": [
+            "src/Helper/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
